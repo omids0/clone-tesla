@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Footer from './Footer';
 import Section from './Section';
 
 function Container() {
@@ -53,7 +54,7 @@ function Container() {
                   btnOne={'shope now'}
                   btnTwo={''}
             />
-            {/* footer */}
+            <Footer />
       </Content>;
 }
 
